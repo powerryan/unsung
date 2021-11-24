@@ -1,0 +1,46 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+
+    /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("journal.jpg");
+    background-size: cover; */
+    background-color: #f7f7f7;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginContents {
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label {
+    margin: 10px 0;
+}
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    margin: 6px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.loginInput:focus {
+    outline: none;
+}
+.loginButton {
+    margin-top: 20px;
+}
+
+.registerButton {
+    margin-top: 20px;
+
+}

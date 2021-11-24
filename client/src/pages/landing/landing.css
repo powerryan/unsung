@@ -1,0 +1,15 @@
+.landing{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+
+    /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("journal.jpg");
+    background-size: cover; */
+    background-color: #f7f7f7;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landingContents {
+    margin-top: 15vh;
+}

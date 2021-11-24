@@ -1,0 +1,5 @@
+.home {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}

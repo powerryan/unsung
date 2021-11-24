@@ -1,0 +1,45 @@
+.register{
+    height: calc(94.8vh);
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #f7f7f8;
+    /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("diary.jpg"); */
+    /* background-size: cover; */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registerContents {
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.registerTitle {
+    font-size: 50px;
+}
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label {
+    margin: 10px 0;
+}
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    margin: 6px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.registerInput:focus {
+    outline: none;
+}
+.registerButton {
+    margin-top: 20px;
+}
+.registerButton {
+    margin-top: 20px;
+
+}

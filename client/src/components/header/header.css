@@ -1,0 +1,27 @@
+.header {
+    margin-top: 60px;
+    height: inherit;
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+    color: #333;
+}
+
+.headerTitlesm {
+    font-family: 'Source Serif Pro', serif;
+    position: absolute;
+    margin-top: 180px;
+    font-size: 1rem;
+    margin-right: 0px;
+}
+
+.headerTitlelg {
+    font-family: 'Montserrat', sans-serif;
+    /* position: absolute; */
+    margin-top: 0px;
+    font-size: 10rem;
+}
